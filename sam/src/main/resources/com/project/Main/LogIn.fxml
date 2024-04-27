@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="402.0" prefWidth="654.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.Main.LoginController">
+    <children>
+        <Label layoutX="93.0" layoutY="54.0" prefHeight="50.0" prefWidth="448.0" text="Login into your  Account">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+        <TextField fx:id="loginNameTextField" layoutX="93.0" layoutY="153.0" prefHeight="28.0" prefWidth="282.0" promptText="Name" />
+        <PasswordField fx:id="loginPasswordField" layoutX="93.0" layoutY="201.0" prefHeight="26.0" prefWidth="282.0" promptText="Password" />
+        <Button fx:id="loginSignInButton" layoutX="93.0" layoutY="244.0" mnemonicParsing="false" onAction="#login" prefHeight="26.0" prefWidth="105.0" text="Sign In" />
+      <Text fx:id="loginIncorrectText" fill="#dd3e3e" layoutX="93.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your username or password is incorrect." visible="false" wrappingWidth="216.71533203125" />
+    </children>
+</AnchorPane>

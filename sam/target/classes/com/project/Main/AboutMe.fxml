@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="558.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.Main.AboutMeController">
+   <children>
+      <Label alignment="CENTER" layoutX="93.0" layoutY="54.0" text="About me" textFill="#bf6767" wrapText="true">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Text layoutX="93.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tôi là Nguyễn Vũ Thái Sơn, sinh viên trường đại học Bách Khoa Hà Nội Văn Bằng Hai Chính Quy" textAlignment="JUSTIFY" wrappingWidth="732.21630859375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="93.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Địa chỉ Cầu Giấy, Hà Nội Việt Nam" wrappingWidth="311.21630859375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="93.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Số Điện Thoại: 0944922856" textAlignment="JUSTIFY" wrappingWidth="311.21630859375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="93.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Địa chỉ Gmail: Thaisonnguyenvu00@Gmail.com" wrappingWidth="311.21630859375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

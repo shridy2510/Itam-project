@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="825.0" prefWidth="986.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.Main.HomeController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="93.0" layoutY="54.0" text="Introduction">
+         <font>
+            <Font size="40.0" />
+         </font></Label>
+      <Text layoutX="93.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quản lý tài sản IT ngày càng trở nên cấp thiết trong thời đại hiện này. Trong môi trường kinh doanh ngày càng số hóa, tài sản IT đóng một vai trò quan trọng trong việc hỗ trợ và tăng cường hiệu suất hoạt động của tổ chức. " textAlignment="JUSTIFY" wrappingWidth="851.21630859375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="93.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trong bối cảnh này, việc quản lý tài sản IT không chỉ giúp tổ chức duy trì và cập nhật các tài nguyên của mình một cách hiệu quả, mà còn giúp họ đảm bảo an ninh thông tin, tuân thủ các tiêu chuẩn và quy định, và tối ưu hóa chi phí." textAlignment="JUSTIFY" wrappingWidth="851.21630859375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="93.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Để đáp ứng nhu cầu trên, tôi đã viết Ứng dụng IT Asset Management dựa trên tiêu chuẩn ISO 19770. Ứng dụng này đáp ửng đủ các chức năng quản lý tài sản IT cơ bản như thêm,xoá,sửa,xem tài sản IT. Mong rằng ứng dụng này đáp ứng đủ nhu cầu của người dùng" textAlignment="JUSTIFY" wrappingWidth="851.21630859375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
